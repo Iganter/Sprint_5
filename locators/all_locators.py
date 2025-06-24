@@ -34,8 +34,8 @@ class AccountPageLocators:
     login_input = (By.XPATH, '//label[text() = "Логин"]/following-sibling::input')
     password_input = (By.XPATH, '//label[text() = "Пароль"]/following-sibling::input')
     logout_button = (By.XPATH, '//button[text() = "Выход"]')
-    logo_button = (By.XPATH, '(//a[@href="/"])[1]')
-    constructor_button = (By.XPATH, '(//a[@href="/"])[2]')
+    constructor_button = (By.XPATH, '(//a[@href="/"])[1]')
+    logo_button = (By.XPATH, '(//a[@href="/"])[2]')
 
 class RestorePasswordPageLocators:
     login_button = (By.XPATH, '//a[@href = "/login"]')
